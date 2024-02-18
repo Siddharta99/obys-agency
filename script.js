@@ -79,9 +79,7 @@ document.addEventListener("mousemove",function(dets){
     })
 
     videoContainer.addEventListener("mouseleave",function(){
-        gsap.to(".mousefollower",{
-            display: "initial",
-        })
+        
         gsap.to("#video-cursor",{
             left: "70%",
             top: "-15%"
